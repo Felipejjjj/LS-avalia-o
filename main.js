@@ -5,13 +5,13 @@ const peso = { q1: 2, q2: 2, q3: 2, q4: 2, q5: 2 };
 const prova = new Exam(resposta, peso);
 
 const aluno1 = {
-    student: 'Felipe',
-    values: { q1: 'a', q2: 'b', q3: 'b', q4: 'b', q5: 'b' },
+    estudante: 'Felipe',
+    teste: { q1: 'a', q2: 'b', q3: 'b', q4: 'b', q5: 'b' },
 };
 
 const aluno2 = {
-    student: 'José',
-    values: { q1: 'a', q2: 'b', q3: 'c', q4: 'c', q5: 'd' },
+    estudante: 'José',
+    teste: { q1: 'a', q2: 'b', q3: 'c', q4: 'c', q5: 'd' },
 };
 
 prova.add(aluno1);

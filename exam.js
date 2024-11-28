@@ -17,7 +17,7 @@ class Exam {
 
     // Método para adicionar um aluno à lista de exames
     add(aluno) {
-        const notaAluno = this.calcularNota(aluno.values);
+        const notaAluno = this.calcularNota(aluno.teste);
         const alunoComNota = { ...aluno, nota: notaAluno };
         this.exams.push(alunoComNota);
     }
